@@ -57,22 +57,15 @@ export default function Home() {
       },
       {
         r_name: "Vysočina",
-        p_name: "Přísaha",
-        gps: [15.5912436,49.3961003 ],
-        color: [56, 86, 198, 255],
-        voters: 14504
-      },
-      {
-        r_name: "Vysočina",
         p_name: "KSČM",
-        gps: [15.6912436,49.3961003 ],
+        gps: [15.5912436,49.3961003 ],
         color: [217, 32, 32, 255],
         voters: 12959
       },
       {
         r_name: "Vysočina",
         p_name: "TSS",
-        gps: [15.7912436,49.3961003 ],
+        gps: [15.6912436,49.3961003 ],
         color: [218, 122, 170, 255],
         voters: 9907
       },
