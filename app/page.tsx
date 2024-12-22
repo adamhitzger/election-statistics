@@ -97,7 +97,7 @@ export default function Home() {
           getTooltip={({object}: PickingInfo<PartyRegionResult>) => object ? `Počet voličů ${object.p_name}: ${object.voters}` : ""}
         >
           <Map
-            mapboxAccessToken={process.env.NEXTJS_PUBLIC_MAPBOX_ACCESS_TOKEN!}
+            mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN!}
             mapStyle="mapbox://styles/petherem/cl2hdvc6r003114n2jgmmdr24"
             initialViewState={{
               longitude: INITIAL_VIEW_STATE.longitude,
